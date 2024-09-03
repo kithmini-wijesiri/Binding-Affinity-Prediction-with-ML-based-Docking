@@ -7,10 +7,13 @@ Please ensure all dependencies are installed.
 You can install those dependencies by
 
 mamba env create -n lab2 -f env.yml
+
 conda activate lab2
+
 For visualization of the docking results, you need to install py3Dmol by running the following command:
 
 pip install py3Dmol
+
 For better Active learning performance, you can install modAL by running the following command:
 
 pip install modAL-python
